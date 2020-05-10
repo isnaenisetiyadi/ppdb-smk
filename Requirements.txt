@@ -8,6 +8,10 @@ ASPEK TEKNIS :
 3. Tahap penyetoran berkas dan biodata bertahap :
     tahap daftar awal dan tahap daftar ulang
 4. Bila yang mendaftar siswa langsung, wajib memasukkan berkas pendaftaran, bila yang mendaftarkan guru maka berkas boleh disetor offline
+5. Saat siswa mendaftar awal, tidak perlu login. Tapi setelah daftar ulang diterima, diberikan akun untuk login. 
+6. Siswa login dapat melihat informasi pengumuman, dan melakukan daftar ulang bila sudah dibuka dan atau dinyatakan lulus.
+7.1 Entry data Raport minimal 3 semester untuk seleksi otomatis berdasarkan nilai rapor.
+7.2 mapel yang dientry bisa di-custom oleh admin, dan bisa ditiadakan (tanpa seleksi melalui nilai rapor)
 
 OUTPUT :
 1. Dapat melihat pendaftar per wilayah, per sekolah asal, dan per pendaftar (guru yang dititipi)
