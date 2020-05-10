@@ -1,0 +1,14 @@
+Gambaran Umum :
+1. Melayani pendaftaran siswa 
+2. Sistem dirancang agar sederhana, mudah digunakan, tidak memasukkan data atau berkas yang tidak penting atau belum penting. (Gambaran Umum, poin 3)
+
+ASPEK TEKNIS :
+1. Proses pendaftaran bisa dilakukan oleh Siswa maupun guru (calon siswa nitip data ke guru)
+2. Berkas dapat diterima berupa foto maupun file gambar 
+3. Tahap penyetoran berkas dan biodata bertahap :
+    tahap daftar awal dan tahap daftar ulang
+4. Bila yang mendaftar siswa langsung, wajib memasukkan berkas pendaftaran, bila yang mendaftarkan guru maka berkas boleh disetor offline
+
+OUTPUT :
+1. Dapat melihat pendaftar per wilayah, per sekolah asal, dan per pendaftar (guru yang dititipi)
+2. Dapat melihat kelengkapan berkas yang kurang (sudah disetor atau belum)
