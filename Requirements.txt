@@ -12,7 +12,12 @@ ASPEK TEKNIS :
 6. Siswa login dapat melihat informasi pengumuman, dan melakukan daftar ulang bila sudah dibuka dan atau dinyatakan lulus.
 7.1 Entry data Raport minimal 3 semester untuk seleksi otomatis berdasarkan nilai rapor.
 7.2 mapel yang dientry bisa di-custom oleh admin, dan bisa ditiadakan (tanpa seleksi melalui nilai rapor)
+8. Diperbaharui periodenya berdasarkan Tahun Ajaran
 
 OUTPUT :
 1. Dapat melihat pendaftar per wilayah, per sekolah asal, dan per pendaftar (guru yang dititipi)
 2. Dapat melihat kelengkapan berkas yang kurang (sudah disetor atau belum)
+3. Notifikasi untuk user :
+3.1 Pendaftar baru (admin, guru)
+3.2 Pengumuman Kelulusan (masing-masing pendaftar)
+3.3 Saat pendaftaran ulang (masing-masing pendaftar)
