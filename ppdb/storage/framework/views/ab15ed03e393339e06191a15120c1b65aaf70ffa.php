@@ -98,9 +98,7 @@
                 <a href="https://github.com/laravel/laravel">GitHub</a>
             </div>
             <hr>
-            <div id="app">
-                <p><?php echo e(message); ?></p>
-            </div>
+           
         </div>
     </div>
     <script type="text/javascript">
@@ -108,6 +106,9 @@
             el: '#app',
             data: {
                 message: 'Hello Bro'
+            },
+            component: {
+                
             }
         })
     </script>
