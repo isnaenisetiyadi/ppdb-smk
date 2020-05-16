@@ -1,0 +1,10 @@
+Layout :
+1. Header (Brand, Norification, User(login-profile-logout, collapse button)
+2. Sidebar 
+    (Home,  Daftar, Daftar Ulang)                       -> no auth, auth : admin (daftar ulang)
+    (Syarat2 : Berkas, Uang pembayaran, Nilai Rapor)    -> auth: admin
+    (Proses Pendaftar : Pelulusan)                      -> auth: login
+    (Catat Pembayaran Peri pendaftar)                   -> auth: guru
+    (Entry: User)                                       -> auth: admin
+3. Footer : Copyright: freestudy.net (fs)
+

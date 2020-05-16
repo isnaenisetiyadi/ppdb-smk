@@ -6,29 +6,15 @@
 
 require('./bootstrap');
 
-// require('../majestic/js/off-canvas.js');
-
-// require('./')
-//IMPORT MAJESTIC TEMPLATE
-// require('~majestic/vendors/base/vendor.bundle.base');
-// require('~/majestic/')
-// require('~majestic/vendors/chart.js/Chart.min');
-// require('./majestic/vendors/datatables.net/jquery.dataTables');
-// // require('./majestic/vendors/datatables.net-bs4/dataTables.bootstrap4.js');
-// require('./majestic/js/off-canvas');
-// require('./majestic/js/hoverable-collapse');
-// require('./majestic/js/template');
-// require('./majestic/js/dashboard');
-// require('./majestic/js/data-table.js');
-// require('./majestic/js/jquery.dataTables');
-// // require('./majestic/js/dataTables.bootstrap4.js');
-
-
 window.Vue = require('vue');
-// import Vue from 'vue'
-import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
+
+// import Vue from 'vue'
+import store from './store';
+import VueRouter from 'vue-router';
+
+
 
 /**
  * UJICOBA VUE ROUTER
@@ -37,8 +23,19 @@ const Foo = { template: '<div>INI FOO foo</div>' }
 const Bar = { template: '<div>bar INI BROOO</div>' }
 
 //DIBAWAH INI CARA MENGIMPOR KOMPONEN (FILE .VUE)
-import Index from './components/Index.vue';
+import Index from './components/content/Index.vue';
 import Create from './components/Create.vue';
+import Department from './components/content/Department.vue';
+import Cash from './components/content/Cash.vue';
+import File from './components/content/File.vue';
+import Period from './components/content/Period.vue';
+import Students from './components/content/Students.vue';
+import Register from './components/content/Register.vue';
+import Heregister from './components/content/Heregister.vue';
+import Graduated from './components/content/Graduated.vue';
+import Users from './components/content/Users.vue';
+import School from './components/content/School.vue';
+import Profile from './components/content/Profile.vue';
 
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
@@ -50,7 +47,19 @@ const routes = [
     { path: '/foo', component: Foo },
     { path: '/bar', component: Bar },
     { path: '/', component: Index },
-    { path: '/create', component: Create }
+    { path: '/create', component: Create },
+    { path: '/department', component: Department },
+    { path: '/cash', component: Cash },
+    { path: '/file', component: File },
+    { path: '/period', component: Period },
+    { path: '/students', component: Students },
+    { path: '/register', component: Register },
+    { path: '/heregister', component: Heregister },
+    { path: '/graduated', component: Graduated },
+    { path: '/users', component: Users },
+    { path: '/school', component: School },
+    { path: '/profile', component: Profile }
+
 ]
 
 
@@ -60,7 +69,8 @@ const router = new VueRouter({
 })
 
 const app = new Vue({
-    router
+    router,
+    store
 }).$mount('#app')
 
 /**

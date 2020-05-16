@@ -1,0 +1,49 @@
+#index {
+    /* color: #ffffff; */
+}
+
+#index h1 {
+    font-size: 70px;
+}
+
+.dept-tumbnail {
+    width: 30%;
+}
+
+.period-frame {
+    width: 60%;
+}
+
+@media only screen and (max-width: 1200px) {
+    #index h1 {
+        font-size: 50px;
+    }
+    .dept-tumbnail {
+        width: 45%;
+    }
+    .period-frame {
+        width: 80;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #index h1 {
+        font-size: 30px;
+    }
+    .dept-tumbnail {
+        width: 100%;
+    }
+    .period-frame {
+        width: 100%;
+    }
+}
+
+.card-transparent {
+    /* background: #6472f0; */
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #6dd5ed, #2193b0); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #bed3ebd0;
+}
