@@ -31,7 +31,7 @@
         </div> -->
         <div class="card-body card-transparent">
             <h4 class="card-title">Hasil kelulusan anda adalah</h4>
-          <h1 class="card-title text-center">Selamat</h1>
+          <h1 class="card-title text-center text-white" style="text-shadow: 0 0 4px #FF0000, 0 0 6px #0000FF;">Selamat</h1>
           <h2 class="text-success text-center">Anda LULUS</h2>
         </div>
         <div class="card-footer">

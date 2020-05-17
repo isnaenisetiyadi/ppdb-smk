@@ -160,7 +160,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <router-link to="/graduated" class="nav-link">
+          <router-link to="/graduate" class="nav-link">
 
             <i class="mdi mdi-voice menu-icon"></i>
             <span class="menu-title">Pengumuman</span>

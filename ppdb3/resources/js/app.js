@@ -32,7 +32,7 @@ import Period from './components/content/Period.vue';
 import Students from './components/content/Students.vue';
 import Register from './components/content/Register.vue';
 import Heregister from './components/content/Heregister.vue';
-import Graduated from './components/content/Graduated.vue';
+import Graduate from './components/content/Graduate.vue';
 import Users from './components/content/Users.vue';
 import School from './components/content/School.vue';
 import Profile from './components/content/Profile.vue';
@@ -55,7 +55,7 @@ const routes = [
     { path: '/students', component: Students },
     { path: '/register', component: Register },
     { path: '/heregister', component: Heregister },
-    { path: '/graduated', component: Graduated },
+    { path: '/graduate', component: Graduate },
     { path: '/users', component: Users },
     { path: '/school', component: School },
     { path: '/profile', component: Profile }
